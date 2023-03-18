@@ -1,0 +1,112 @@
+.text {
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  gap: 10px;
+  margin-top: 10rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+}
+
+.main {
+  display: flex;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+ul {
+  text-decoration: none;
+  flex: 1;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 400px;
+  width: 600px;
+  max-height: 20px; /* or any value that suits your layout */
+  overflow: auto;
+  list-style-type: '- ';
+  position: fixed;
+  right: 20px;
+  background-color: grey;
+}
+
+.history {
+  position: relative;
+  left: 860px;
+}
+
+.result {
+  flex: 1; 
+  padding-right: 20px;
+  padding-left: 10px;
+  border-right: 1px solid #000;
+  border: 1px solid #000;
+  position: fixed;
+  margin-right: 10px;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.answer {
+  position: relative;
+  left: 200px
+}
+
+.placeholder {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 16px;
+  resize: none;
+  width: 75rem;
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  color: white;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(139, 136, 136, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #000000;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(119, 114, 114, 0.65);
+  transform: translateY(0);
+}
